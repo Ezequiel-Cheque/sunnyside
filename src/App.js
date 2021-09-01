@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import React from 'react'
 
-function App() {
+export const App = () => {
   return (
     <div>
       <h1>Branch test</h1>
       <hr />
+      <button type="button">Boton</button>
     </div>
-  );
+  )
 }
-
-export default App;
