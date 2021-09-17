@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { App } from './App';
+import "./styles/landing.scss";
 
 ReactDOM.render(
   <React.StrictMode>

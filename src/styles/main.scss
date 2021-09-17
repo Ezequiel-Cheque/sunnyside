@@ -1,3 +1,25 @@
+//Primary
+$soft-red : hsl(7, 99%, 70%);
+$yellow : hsl(51, 100%, 49%);
+$dark-desaturated-cyan : hsl(167, 40%, 24%);
+$darkBlue : hsl(198, 62%, 26%);
+$dark-moderate-cyan : hsl(168, 34%, 41%); 
+
+// Neutral
+$dark-desaturated-blue : hsl(212, 27%, 19%);
+$dark-grayish-blue: hsl(213, 9%, 39%);
+$dark-grayish-blue: hsl(232, 10%, 55%);
+$grayish-blue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+// Typography
+// Body Copy
+$body-copy-font: 18px;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;600;900&family=Fraunces:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,900;1,300&display=swap');
+
+
 body{
     margin: 0px;
     padding: 0px;

@@ -1,0 +1,107 @@
+@import "./main.scss";
+
+.hero-header {
+    font-family: 'Barlow', sans-serif;
+
+    &-container {
+        position: relative;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    &-menu {
+        width: auto;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        justify-content: space-between;
+        div {
+           width: 100px;
+           padding: 10px;
+           margin: 5px;
+           text-align: center;
+           color: $white;
+           font-size: 18px;
+           font-weight: 600;
+           cursor: pointer;
+        }
+         div:last-child {
+             color: #000;
+             background-color: $white;
+             border-radius: 20px;
+             &:hover{
+                color: $white;
+                background-color: rgba($color: #ffff, $alpha: 0.3);
+             }
+         }
+    }
+    &-title {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        width: 100%;
+        color: $white;
+        font-size: 70px;
+        text-transform: uppercase;
+        font-weight: 600;
+        img {
+            margin-top: 20px;
+            width: 40px;
+        }
+    }
+    &-logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 150px;
+    }
+}
+
+.seccion {
+    font-family: 'Fraunces', serif;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+        margin-top: -5px;
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+
+    &-text {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-container {
+            width: 250px;
+            height: 350px;
+        }
+        &-title {
+            font-size: 40px;
+            font-weight: 900;
+        }
+        &-more {
+            font-weight: 700;
+            cursor: pointer;
+            width: 130px;
+            em {
+                display: block;
+                width: 120px;
+                height: 8px;
+                margin-top: -5px;
+                border-radius: 20px;
+            }
+            .line-yellow {
+                background-color: $yellow;
+            }
+            .line-red {
+                background-color: $soft-red;
+            }
+        }
+    }
+}
