@@ -64,7 +64,7 @@
     display: flex;
     flex-wrap: wrap;
 
-    div {
+    > div {
         margin-top: -5px;
         width: 50%;
         img {
@@ -78,7 +78,7 @@
         justify-content: center;
         align-items: center;
         &-container {
-            width: 250px;
+            width: 400px;
             height: 350px;
         }
         &-title {
@@ -91,17 +91,48 @@
             width: 130px;
             em {
                 display: block;
-                width: 120px;
-                height: 8px;
-                margin-top: -5px;
-                border-radius: 20px;
+                width: 130px;
+                height: 25px;
+                margin-top: -26px;
+                border-radius: 5px;
+                border-bottom-style: solid;
+                border-width: 12px;
+                opacity: 0.3;
+                transition: ease;
+
+                &:hover {
+                    opacity: 1;
+                }
             }
             .line-yellow {
-                background-color: $yellow;
+                // background-color: $yellow;
+                border-color: $yellow;
             }
             .line-red {
-                background-color: $soft-red;
+                // background-color: $soft-red;
+                border-color: $soft-red;
+            }
+        }
+
+        &-complement {
+            position: relative;
+
+            div {
+                width: 350px;
+                position: absolute;
+                bottom: 100px;
+                text-align: center;
+                margin: auto;
+                background-color: beige;
             }
         }
     }
+}
+
+.dark-blue {
+    color: $darkBlue; 
+}
+
+.cyan {
+    color: $dark-moderate-cyan;
 }

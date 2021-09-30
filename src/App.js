@@ -54,17 +54,19 @@ export const App = () => {
             </p>
           </div> 
         </div>
-        <div>
+        <div className="seccion-text-complement">
+          <div className="cyan">
+            <p className="seccion-text-complement-title">Graphic Design</p>
+            <p className="seccion-text-complement-title">Great design makes you memorable. We deliver artwork that underscores your brand message and captures pontential client's attention</p>
+          </div>
           <img src={cherry} alt="landing" />
-          <div className="seccion-text-complement">
-          
-          </div>
         </div>
-        <div>
-          <img src={orange} alt="landing" />
-          <div className="seccion-text-complement">
-
+        <div className="seccion-text-complement">
+          <div className="dark-blue">
+           <p className="seccion-text-complement-title">Photography</p>
+           <p className="seccion-text-complement-title">Increase your credibility by getting the most stunning, high-quality photos that improve your bussiness image</p>
           </div>
+          <img src={orange} alt="landing" />
         </div>
       </div>
     </main>
